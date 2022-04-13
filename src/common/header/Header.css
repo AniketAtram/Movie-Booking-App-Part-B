@@ -1,0 +1,32 @@
+.header-container {
+    background-color: #222;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+}
+
+.logo-image {
+    background-color: #FF7F7F;
+    height: 35px;
+    position: relative;
+    left: 0;
+    animation-name: rotation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rotation {
+    from{
+        transform: rotateY(1deg);
+    }
+    to{
+        transform: rotateY(359deg);
+    }
+}
+
+.login-btn {
+	float: right;
+}
+
+.book-now {
+	margin-right: 5px;
+}
